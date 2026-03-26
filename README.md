@@ -10,17 +10,9 @@
   <img src="https://img.shields.io/badge/Projeto-Acadêmico-orange?style=for-the-badge">
 </p>
 
-> Jogo de lógica em C++ — versão para terminal local (VSCode)
+> Jogo de lógica em C++ — versão para terminal local
 
-**Autora:** Emanuele Kmiecik | **Turno:** Manhã | **Linguagem:** C++
-
----
-
-## 🎥 Demonstração
-
-<p align="center">
-  <img src="assets/demo.gif" alt="Demonstração do jogo" width="600">
-</p>
+**Autora:** Emanuele Kmiecik | **Linguagem:** C++
 
 ---
 
@@ -30,7 +22,7 @@
 
 O jogador assume o papel de um fazendeiro que precisa atravessar um rio levando três elementos, respeitando regras específicas para evitar conflitos.
 
-🎯 O desafio é tomar decisões estratégicas para completar a travessia com sucesso.
+> O desafio é tomar decisões estratégicas para completar a travessia com sucesso.
 
 ---
 
@@ -73,13 +65,13 @@ g++ src/main.cpp -o jogo
 
 ```
 lobo-coelho-cogumelo/
-├── assets/
-│   ├── banner.png     # Capa do projeto
-│   └── demo.gif       # GIF do jogo
 ├── src/
-│   └── main.cpp
-├── .gitignore
-└── README.md
+│   ├── main.cpp
+│   ├── ascii.h
+│   └── ascii.cpp
+├── assets/
+├── README.md
+└── .gitignore
 ```
 
 ---
@@ -110,10 +102,10 @@ lobo-coelho-cogumelo/
 
 ## ✨ Diferenciais
 
-* 🎨 ASCII Art interativo
-* 🎮 Experiência passo a passo
-* 🧠 Foco em lógica e tomada de decisão
-* 💻 Código estruturado e didático
+* ASCII Art interativo
+* Experiência passo a passo
+* Foco em lógica e tomada de decisão
+* Código estruturado e didático
 
 ---
 
@@ -124,12 +116,6 @@ lobo-coelho-cogumelo/
 3. Commit: `git commit -m "feat: nova feature"`
 4. Push: `git push origin minha-feature`
 5. Pull Request
-
----
-
-## 👩‍💻 Autora
-
-**Emanuele Kmiecik**
 
 ---
 
