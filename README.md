@@ -1,7 +1,7 @@
 # 🐺🥕🍄 Lobo, Coelho e Cogumelo
 
 <p align="center">
-  <img src="banner.png" alt="Banner do Projeto" width="100%">
+  <img src="banner_jogo.png" alt="Banner do Projeto" width="100%">
 </p>
 
 > Jogo de lógica em C++ — versão para terminal local
