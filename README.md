@@ -1,5 +1,3 @@
-# 🐺🥕🍄 Lobo, Coelho e Cogumelo
-
 <p align="center">
   <img src="banner_jogo.png" alt="Banner do Projeto" width="100%">
 </p>
