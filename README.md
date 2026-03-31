@@ -4,15 +4,9 @@
   <img src="banner.png" alt="Banner do Projeto" width="100%">
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/C++-Programação-blue?style=for-the-badge&logo=c%2B%2B">
-  <img src="https://img.shields.io/badge/Status-Concluído-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Projeto-Acadêmico-orange?style=for-the-badge">
-</p>
-
 > Jogo de lógica em C++ — versão para terminal local
 
-**Autora:** Emanuele Kmiecik | **Linguagem:** C++
+**Autora:** Emanuele Kmiecik 
 
 ---
 
