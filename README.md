@@ -1,3 +1,5 @@
+# Jogo da Travessia de um Rio
+
 <p align="center">
   <img src="jogo_travessia.png" alt="Banner do Projeto" width="100%">
 </p>
@@ -10,7 +12,7 @@
 
 ## 📖 Sobre o Projeto
 
-**Lobo, Coelho e Cogumelo** é um jogo interativo de raciocínio lógico baseado em terminal.
+**O Jogo da Travessia de um Rio** é um jogo interativo de raciocínio lógico baseado em terminal.
 
 O jogador assume o papel de um fazendeiro que precisa atravessar um rio levando três elementos, respeitando regras específicas para evitar conflitos.
 
