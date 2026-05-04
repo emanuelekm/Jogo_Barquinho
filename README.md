@@ -1,118 +1,97 @@
-# Jogo da Travessia de um Rio
+# Jogo da Travessia — Simulação Interativa
 
 <p align="center">
   <img src="jogo_travessia.png" alt="Banner do Projeto" width="100%">
 </p>
 
-> Jogo de lógica em C++ — versão para terminal local
-
-**Autora:** Emanuele Kmiecik 
-
----
-
-## 📖 Sobre o Projeto
-
-**O Jogo da Travessia de um Rio** é um jogo interativo de raciocínio lógico baseado em terminal.
-
-O jogador assume o papel de um fazendeiro que precisa atravessar um rio levando três elementos, respeitando regras específicas para evitar conflitos.
-
-> O desafio é tomar decisões estratégicas para completar a travessia com sucesso.
+![Status](https://img.shields.io/badge/status-Concluído-green?style=for-the-badge)
+![Linguagem](https://img.shields.io/badge/linguagem-Python-blue?style=for-the-badge\&logo=python)
+![Nível](https://img.shields.io/badge/nível-Básico-green?style=for-the-badge)
+![Tipo](https://img.shields.io/badge/tipo-Jogo%20de%20Terminal-purple?style=for-the-badge)
 
 ---
 
-## 🎮 Personagens e Regras
+## Descrição
 
-| Personagem  | Restrição                                |
-| ----------- | ---------------------------------------- |
-| 🐺 Lobo     | Não pode ficar sozinho com o 🥕 Coelho   |
-| 🥕 Coelho   | Não pode ficar sozinho com o 🍄 Cogumelo |
-| 🍄 Cogumelo | Sem restrição direta                     |
+O **Jogo do Barquinho** é um sistema interativo desenvolvido em Python que simula um jogo simples em ambiente de terminal, onde o usuário interage com mecânicas básicas de movimentação e tomada de decisão.
+
+O problema abordado é a necessidade de praticar lógica de programação de forma dinâmica e aplicada. Como solução, o projeto apresenta um jogo leve e interativo, permitindo ao usuário compreender na prática estruturas como decisões, repetições e controle de fluxo.
+
+O impacto do projeto está no fortalecimento da base lógica do desenvolvimento, sendo ideal como exercício introdutório para criação de jogos e sistemas interativos.
 
 ---
 
-## 🚀 Como Executar
+## Objetivo
 
-### Pré-requisitos
+* Praticar lógica de programação com Python
+* Desenvolver um jogo interativo em terminal
+* Aplicar estruturas condicionais e loops
+* Trabalhar controle de fluxo e interação com o usuário
+* Consolidar fundamentos de programação
 
-* Compilador C++ (g++, MinGW, etc.)
-* VSCode (recomendado)
+---
 
-### Passos
+## Tecnologias
+
+* Python 3
+
+---
+
+## Preview
+
+<!-- Sugestões:
+- Tela inicial
+- Execução do jogo no terminal
+- Interações do jogador -->
+
+---
+
+## Como executar
 
 ```bash
-# 1. Clone o repositório
-git clone https://github.com/seu-usuario/lobo-coelho-cogumelo.git
+# Clone o repositório
+git clone https://github.com/emanuelekm/Jogo_Barquinho.git
 
-# 2. Entre na pasta
-cd lobo-coelho-cogumelo
+# Acesse a pasta
+cd Jogo_Barquinho
 
-# 3. Compile
-g++ src/main.cpp -o jogo
-
-# 4. Execute
-./jogo
+# Execute o sistema
+python arquivo.py
 ```
 
 ---
 
-## 🗂️ Estrutura do Projeto
+## Funcionalidades
 
-```
-lobo-coelho-cogumelo/
-├── src/
-│   ├── main.cpp
-│   ├── ascii.h
-│   └── ascii.cpp
-├── assets/
-├── README.md
-└── .gitignore
-```
+* Interação com o usuário via terminal
+* Sistema de decisões (escolhas do jogador)
+* Simulação de movimentação do barquinho
+* Fluxo de jogo com início, progresso e fim
+* Feedback em tempo real no terminal
 
 ---
 
-## 🏆 Fluxo do Jogo
+## Aprendizados
 
-| Etapa | Ação                           |
-| ----- | ------------------------------ |
-| 1     | Escolher o primeiro personagem |
-| 2     | Realizar travessias            |
-| 3     | Tomar decisões estratégicas    |
-| 4     | Evitar conflitos               |
-| Final | Vitória ou Game Over           |
+* Criação de jogos simples em Python
+* Uso de estruturas condicionais (`if/elif`)
+* Aplicação de laços de repetição (`while`)
+* Controle de fluxo baseado em escolhas do usuário
+* Organização de lógica de jogo
 
 ---
 
-## 🧠 Conceitos Aplicados
+## Melhorias Futuras
 
-| Conceito                | Descrição                   |
-| ----------------------- | --------------------------- |
-| Estruturas condicionais | Uso de `if` e `switch`      |
-| Estruturas de repetição | Uso de `while`              |
-| Funções                 | Organização modular         |
-| Entrada e saída         | `cin` e `cout`              |
-| Lógica                  | Resolução baseada em regras |
+* Interface gráfica (Tkinter ou Pygame)
+* Sistema de pontuação
+* Níveis de dificuldade
+* Sons e efeitos visuais
+* Expansão da mecânica do jogo
 
 ---
 
-## ✨ Diferenciais
+## Links
 
-* ASCII Art interativo
-* Experiência passo a passo
-* Foco em lógica e tomada de decisão
-* Código estruturado e didático
+* Repositório: https://github.com/emanuelekm/Jogo_Barquinho.git
 
----
-
-## 🤝 Como Contribuir
-
-1. Fork do projeto
-2. `git checkout -b minha-feature`
-3. Commit: `git commit -m "feat: nova feature"`
-4. Push: `git push origin minha-feature`
-5. Pull Request
-
----
-
-## 📜 Licença
-
-Projeto acadêmico para fins de estudo.
